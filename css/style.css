@@ -11,6 +11,10 @@ body{
 	line-height: 1.3;
 	padding: 0;
 	margin: 0;
+	background-image: url('../bg.jpg');
+	background-size: cover;
+	background-position: top left;
+	background-repeat: no-repeat;
 }
 a{
 	display: block;
@@ -28,14 +32,19 @@ a{
 
 /*BUTTONS START*/
 #myBtnContainer{
-	background-color: #f0f0f0;
-	padding: 24px;
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	flex-wrap: wrap;
-	margin-bottom: 30px;
-	animation: animate .3s forwards 0s ease-in;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.4);
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    animation: animate .3s forwards 0s ease-in;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+	box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
 }
 
 #myBtnContainer .btn{
